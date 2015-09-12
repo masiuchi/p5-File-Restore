@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Restore changed file.",
    "author" : [
       "Masahiro Iuchi <masahiro.iuchi@gmail.com>"
    ],
@@ -42,11 +42,15 @@
       },
       "runtime" : {
          "requires" : {
+            "File::Copy" : "0",
+            "File::Temp" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "File::Basename" : "0",
+            "File::Spec" : "0",
             "Test::More" : "0.98"
          }
       }
