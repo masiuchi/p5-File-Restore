@@ -56,5 +56,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/masiuchi/p5-File-Restore/issues"
+      },
+      "homepage" : "https://github.com/masiuchi/p5-File-Restore",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/masiuchi/p5-File-Restore.git",
+         "web" : "https://github.com/masiuchi/p5-File-Restore"
+      }
+   },
    "version" : "0.01"
 }
